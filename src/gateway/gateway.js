@@ -8,5 +8,5 @@ export const fetchCurrencyRate = (currency) => {
       }
       return [];
     })
-    .then(rates => rates.rates);
+    .then(rates => rates);
 };
