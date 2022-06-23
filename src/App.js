@@ -1,15 +1,15 @@
-import ExchangeBoard from './component/ExchangeBoard';
-import Footer from './component/Footer';
+import ExchangeBoard from './component/ExchangeBoard/ExchangeBoard';
 import Header from './component/Header';
 import './App.css';
 
 function App() {
   return (
+    <>
+    <Header />
     <div className="exchange-board">
-      <Header />
       <ExchangeBoard />
-      <Footer />
     </div>
+    </>
   );
 }
 
