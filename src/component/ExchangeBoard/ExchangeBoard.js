@@ -48,7 +48,6 @@ const ExchangeBoard = () => {
   }
 
   const handleOutputCurrencyChange = () => {
-    console.log(output_currency.value)
     setOutputCurrency(output_currency.value)
     setInputAmount(exactAmount(outputAmount, outPutRates[inputCurrency]))
   }
