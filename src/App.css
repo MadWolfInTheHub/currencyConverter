@@ -46,20 +46,18 @@ body{
 
 .currency select {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-background-color:transparent;
-color: #0e3114;
-width : 80px;
-height: 32px;
-border: none;
-border-radius: 5px;
-font-size: 1.5rem;
-font-weight: bold;
-
+  background-color:transparent;
+  color: #0e3114;
+  width : 80px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .currency input {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
   background-color: transparent;
   color: #192c1e;
   width: 400px;
@@ -80,10 +78,9 @@ font-weight: bold;
 }
 
 .result {
-
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 button#exchange  {
@@ -111,7 +108,6 @@ button#exchange:hover{
 }
 
 .rate{
- 
   color: #5f2419;    
   width: 500px;
   height: 35px;
